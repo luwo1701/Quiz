@@ -15,6 +15,9 @@
 		C5D739681D3188510099C7E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D739661D3188510099C7E3 /* LaunchScreen.storyboard */; };
 		C5D739731D3188510099C7E3 /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D739721D3188510099C7E3 /* QuizTests.m */; };
 		C5D7397E1D3188510099C7E3 /* QuizUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D7397D1D3188510099C7E3 /* QuizUITests.m */; };
+		C5D739941D318BA40099C7E3 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D739931D318BA40099C7E3 /* QuizViewController.m */; };
+		C5D739971D318BBF0099C7E3 /* HighScoresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D739961D318BBF0099C7E3 /* HighScoresViewController.m */; };
+		C5D739991D318EDB0099C7E3 /* QuestionsList.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5D739981D318EDB0099C7E3 /* QuestionsList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		C5D739791D3188510099C7E3 /* QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D7397D1D3188510099C7E3 /* QuizUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizUITests.m; sourceTree = "<group>"; };
 		C5D7397F1D3188510099C7E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D739921D318BA40099C7E3 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		C5D739931D318BA40099C7E3 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		C5D739951D318BBF0099C7E3 /* HighScoresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScoresViewController.h; sourceTree = "<group>"; };
+		C5D739961D318BBF0099C7E3 /* HighScoresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighScoresViewController.m; sourceTree = "<group>"; };
+		C5D739981D318EDB0099C7E3 /* QuestionsList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = QuestionsList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +113,10 @@
 				C5D7395C1D3188510099C7E3 /* AppDelegate.m */,
 				C5D7395E1D3188510099C7E3 /* ViewController.h */,
 				C5D7395F1D3188510099C7E3 /* ViewController.m */,
+				C5D739921D318BA40099C7E3 /* QuizViewController.h */,
+				C5D739931D318BA40099C7E3 /* QuizViewController.m */,
+				C5D739951D318BBF0099C7E3 /* HighScoresViewController.h */,
+				C5D739961D318BBF0099C7E3 /* HighScoresViewController.m */,
 				C5D739611D3188510099C7E3 /* Main.storyboard */,
 				C5D739641D3188510099C7E3 /* Assets.xcassets */,
 				C5D739661D3188510099C7E3 /* LaunchScreen.storyboard */,
@@ -118,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				C5D739591D3188510099C7E3 /* main.m */,
+				C5D739981D318EDB0099C7E3 /* QuestionsList.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D739991D318EDB0099C7E3 /* QuestionsList.plist in Resources */,
 				C5D739681D3188510099C7E3 /* LaunchScreen.storyboard in Resources */,
 				C5D739651D3188510099C7E3 /* Assets.xcassets in Resources */,
 				C5D739631D3188510099C7E3 /* Main.storyboard in Resources */,
@@ -272,7 +286,9 @@
 			files = (
 				C5D739601D3188510099C7E3 /* ViewController.m in Sources */,
 				C5D7395D1D3188510099C7E3 /* AppDelegate.m in Sources */,
+				C5D739971D318BBF0099C7E3 /* HighScoresViewController.m in Sources */,
 				C5D7395A1D3188510099C7E3 /* main.m in Sources */,
+				C5D739941D318BA40099C7E3 /* QuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

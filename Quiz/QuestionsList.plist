@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Title</key>
+		<string>What is an alpinists favorite thing to do</string>
+		<key>A</key>
+		<string>Suffer</string>
+		<key>B</key>
+		<string>Spray</string>
+		<key>C</key>
+		<string>Have light gear</string>
+		<key>D</key>
+		<string>Put up first ascents</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>What do you call a small hold</string>
+		<key>A</key>
+		<string>Crimper</string>
+		<key>B</key>
+		<string>Sloper</string>
+		<key>C</key>
+		<string>Piece of shit</string>
+		<key>D</key>
+		<string>Bologna</string>
+	</dict>
+</array>
+</plist>
