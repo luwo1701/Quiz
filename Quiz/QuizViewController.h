@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface QuizViewController : UIViewController
+@interface QuizViewController : UIViewController{
+}
 
 @property (weak, nonatomic) IBOutlet UIButton *BackButton;
 @property (weak, nonatomic) IBOutlet UILabel *QuestionTitle;
