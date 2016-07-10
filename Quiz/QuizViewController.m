@@ -44,11 +44,10 @@
     
     NSString *path = [[NSBundle mainBundle] pathForResource:@"QuestionsList" ofType:@"plist"];
     //create a dictionary object "tempDict" using new path
-    NSDictionary *tempDict = [[NSDictionary alloc] initWithContentsOfFile:path];
-    self.questions = [tempDict objectForKey:@"Root"];
+    NSArray *tempArr= [[NSArray alloc] initWithContentsOfFile:path];
     
     //first question becomes
-    NSDictionary *firstQuestion = [self.questions objectAtIndex:0];
+    NSDictionary *firstQuestion = [tempArr objectAtIndex:0];
     
     //populate the label elements in QuizView with contents of dictionary with keys of what follows the @
     //self.QuestionTitle.text=[firstQuestion objectForKey:@"Title"];
@@ -56,15 +55,7 @@
     self.AnswerB.text=[firstQuestion objectForKey:@"B"];
     self.AnswerC.text=[firstQuestion objectForKey:@"C"];
     self.AnswerD.text=[firstQuestion objectForKey:@"D"];
-    
-    if (tempDict){
-        self.AnswerA.text=@"valid";
-        
-    }
-    else{
-        self.AnswerA.text=@"Null";
-        
-    }
+    self.QuestionTitle.text=[firstQuestion objectForKey:@"Title"];
     
         // Do any additional setup after loading the view, typically from a nib.
 }
